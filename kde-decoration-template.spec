@@ -1,6 +1,6 @@
 %define		_decoration
 Summary:	Kwin decoration - %{_decoration}
-Summary(pl):	Dekoracja kwin - %{_decoration}
+Summary(pl.UTF-8):   Dekoracja kwin - %{_decoration}
 Name:		kde-decoration-%{_decoration}
 Version:
 Release:
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 %{_decoration} is an
 
-%description -l pl
+%description -l pl.UTF-8
 %{_decoration} to
 
 %prep
